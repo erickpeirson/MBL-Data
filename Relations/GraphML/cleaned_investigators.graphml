@@ -16,13 +16,12 @@
     <data key="d7"/>
     <node id="n0">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="96.0" width="661.8379844961241" x="28.499999999999943" y="51.0"/>
+          <y:Geometry height="96.0" width="707.8379844961241" x="5.499999999999886" y="51.0"/>
           <y:Fill color="#00CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="115.8583984375" x="272.98979302931207" y="3.0">Node: Institution<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="115.8583984375" x="295.98979302931207" y="3.0">Node: Institution<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -30,8 +29,8 @@
             </y:ModelParameter>
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
-            <y:AttributeLabel>Course Name: "Marine Biological Laboratory"
-Course URI: "http://history.archives.mbl.edu/concepts/institution/7a9c7e3a-baf1-4855-9447-dc628cc98640"</y:AttributeLabel>
+            <y:AttributeLabel>Institution: "Marine Biological Laboratory"
+Institution URI: "http://history.archives.mbl.edu/concepts/institution/7a9c7e3a-baf1-4855-9447-dc628cc98640"</y:AttributeLabel>
             <y:MethodLabel/>
           </y:UML>
         </y:UMLClassNode>
@@ -39,13 +38,12 @@ Course URI: "http://history.archives.mbl.edu/concepts/institution/7a9c7e3a-baf1-
     </node>
     <node id="n1">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="89.0" width="149.0" x="284.918992248062" y="328.6534883720931"/>
           <y:Fill color="#00CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="134.05712890625" x="7.471435546875" y="3.0">Node: CourseGroup<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="91.7119140625" x="28.64404296875" y="3.0">Node: Person<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -63,7 +61,6 @@ First Name</y:AttributeLabel>
     </node>
     <node id="n2">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="89.0" width="177.0" x="270.918992248062" y="209.65348837209308"/>
@@ -86,7 +83,6 @@ Subject</y:AttributeLabel>
       </data>
     </node>
     <edge id="e0" source="n0" target="n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="48.0" tx="0.0" ty="-44.5"/>
@@ -97,7 +93,6 @@ Subject</y:AttributeLabel>
       </data>
     </edge>
     <edge id="e1" source="n2" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="44.5" tx="0.0" ty="-44.5"/>
